@@ -1,0 +1,7 @@
+//Used my Codesignal Learning to print the first 3 rows using iloc function
+
+import pandas as pd
+
+def selectFirstRows(employees: pd.DataFrame) -> pd.DataFrame:
+
+    return employees.iloc[0:3]
