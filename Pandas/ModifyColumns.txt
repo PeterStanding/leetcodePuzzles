@@ -1,0 +1,6 @@
+import pandas as pd
+
+def modifySalaryColumn(employees: pd.DataFrame) -> pd.DataFrame:
+    newDf = pd.DataFrame(employees)
+    newDf['salary'] = newDf['salary'] * 2
+    return newDf
